@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="container mx-auto px-6 py-16 animate-fade-in-up">
-      <h2 className="text-4xl font-bold mb-8 text-gray-800">About Todays Dental</h2>
+      <h2 className="text-4xl font-bold mb-8   bg-gradient-to-r from-green-400  to-indigo-600  bg-clip-text text-transparent">About Todays Dental</h2>
       <p className="text-gray-800 mb-6 md:text-lg ">We are a modern dental clinic with a legacy of over 20 years in delivering quality care. Our state-of-the-art facilities and expert team ensure the best possible experience for our patients.</p>
       <div className="grid gap-6 md:grid-cols-2 mt-12">
         <div>

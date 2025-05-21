@@ -47,7 +47,7 @@ const services:Service[]=[
 export default function Services() {
   return (
     <section className="container mx-auto px-6 py-8 animate-fade-in-up">
-      <h2 className="text-5xl md:text-7xl font-bold mb-8 text-center text-gray-800 font-[serif]">Dental Services</h2>
+      <h2 className="text-5xl md:text-7xl font-bold mb-8 text-center  font-[serif] bg-gradient-to-r from-green-400  to-indigo-600  bg-clip-text text-transparent">Dental Services</h2>
       <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
         {services.map(service => (
           <div key={service.id} className="bg-white shadow-lg rounded-lg overflow-hidden transform transition hover:scale-105">

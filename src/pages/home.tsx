@@ -5,10 +5,10 @@ import Testimonials from "../components/testimonals";
 export default function Home() {
   return (
     <>
-      <section className="bg-[url('/hero-dental.jpg')] bg-cover bg-center text-white py-20 px-6">
+      <section className="bg-[url('/image.png')] bg-cover bg-center text-white py-20 px-6">
         <div className="container mx-auto text-center max-w-3xl">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-blue-500">Bright Smiles, Brighter Futures</h2>
-          <p className="text-lg mb-12 text-blue-400">Professional dental care tailored to your needs.</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-blue-700">Bright Smiles, Brighter Futures</h2>
+          <p className="text-lg mb-12 text-shadow-amber-300">Professional dental care tailored to your needs.</p>
           <Link to="/contact" className="bg-blue-600 px-6 py-3 rounded text-white text-lg hover:bg-blue-700">
             Book Appointment
           </Link>
